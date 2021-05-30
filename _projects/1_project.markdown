@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Decision Making
-description: How do people navigate the exploration-exploitation trade-off?
+description:  How do we navigate the exploration-exploitation trade-off?
 img: /assets/img/p-dm.jpg
 importance: 1
 category: work

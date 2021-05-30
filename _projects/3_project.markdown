@@ -1,79 +1,52 @@
 ---
 layout: page
 title: Sequential Effects
-description: How do recent experiences influence categorisation?
+description: Do recent experiences influence categorisation?
 img: /assets/img/p-cat.jpg
 #redirect: https://unsplash.com
 importance: 3
-category: fun
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: Decision Making
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The study of categorisation examines what affects how quickly and accurately people are able to classify various stimuli. This has largely focused on long-term knowledge and representations of the stimulus space. For example, when people are classifying a shirt as cheap or expensive, they may draw upon their knowledge of the entire range of shirt prices and be faster and more accurate in classification when the shirts presented lie on either end of the range. However, your perception of the value of a shirt may be influenced by another shirt that you had just seen. A \$100 shirt may seem expensive if presented after a \$20 shirt but may appear cheap if presented after a \$1000 shirt. My work in this area explores the effect of recent experiences on categorisation of stimuli with separable attributes and individual variation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/IntegralStim.png' | relative_url }}"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SeparableStim.png' | relative_url }}"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Examples of stimuli with integral dimensions (on the left) and stimuli with separable dimensions (on the right). Integral dimensions, such as hue and saturation, are difficult to attend independently, while separable dimensions, such as size and shape, are easy to selectively attend to without interference from the other dimension.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+This work follows <a href="https://pubmed.ncbi.nlm.nih.gov/27472912/">Little, Wang, and Nosofsky (2016)</a> who established that, when presented with integral-dimension stimuli, categorisation speed and accuracy of stimuli near the category boundary are influenced by the immediately preceding stimulus. They identify 4 main sequential effects:
 
+1. *Repetition effect*: faster and more accurate when preceded by the same stimulus
+2. *Push effect*: slower and less accurate when preceded by a highly dissimilar same category stimulus
+3. *Pull effect*: slower and less accurate when preceded by a very similar different category stimulus
+4. *Changes in the irrelevant dimension* attenuate the first three effects
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SE_BoxcarStim.png' | relative_url }}"/>
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/GIF_SE_full.gif' | relative_url }}"/>
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Separable dimension stimuli used in Lin & Little (submitted) and an animation of the repetition, push, and pull effects.
 </div>
 
+### Related Work
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+  <img src="{{ '/assets/img/SE_Results.png' | relative_url }}" align="right" style="width: 12vw; min-width: 330px;"/>
+
+  * Lin, D. J. & Little, D. R. (2020). Further tests of sequence-sensitive models in a modified Garner task using separable dimensions. *Manuscript submitted for publication.* <a href="https://pubmed.ncbi.nlm.nih.gov/27472912/">Link</a> and <a href="https://github.com/knowlabUnimelb/MODGARNER/">code</a>.
+    - Establishes that the same pattern of sequential effects are found for separable dimension stimuli and demonstrates that a sequence-sensitive feature-based model (with an LBA back end) where only one dimension is attended to best fits the data
+  * Lin, D. & Little, D. R. (2017). Sequential Effects in the Garner Task. *Proceedings of the 39th Annual Conference of the Cognitive Science Society*. <a href="https://cogsci.mindmodeling.org/2017/papers/0150/paper0150.pdf">Link</a>
+    - Replicates the original Garner speeded classification task with new analysis of sequential effects in a hierarchical Bayesian framework
