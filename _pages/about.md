@@ -2,23 +2,21 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://psychologicalsciences.unimelb.edu.au/research/research-initiatives/our-work/knowlab">Knowledge, Information & Learning Lab</a>, The University of Melbourne.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: Headshot-2018.jpg
+  address:
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<!---My name is Deborah Jingfen Lin (林静芬).-->
+I am currently a PhD student in the Melbourne School of Psychological Sciences at The University of Melbourne, co-advised by A/Prof Daniel Little and Prof Philip Smith.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests centre on using mathematical models of cognition to understand how people make decisions over time, what information is relevant to them in the decision making process, and how they might learn from their past experiences. For my PhD, I study this in the context of perceptual decision making, where participants have to choose between completing tasks that vary in reward and difficulty. The computational models I employ draw upon principles of reinforcement learning and sequential sampling, and aim to capture both choices and response times. A second ongoing project aims to explore how well people schedule tasks of varying difficulty, rewards, and deadlines within a limited time.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to my PhD, I completed my BA with an Honours in Psychology at The University of Melbourne. My honours thesis examined how recent experience affects categorisation decisions with stimuli that have separable attributes. During my undergrad, I worked on developing an exemplar-based model for decisions from description with Prof Ben Newell and Dr. Chris Donkin.
