@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 description: <a href="https://psychologicalsciences.unimelb.edu.au/research/research-initiatives/our-work/knowlab">Knowledge, Information & Learning Lab</a>, The University of Melbourne.
+order: 1
 
 profile:
   align: right

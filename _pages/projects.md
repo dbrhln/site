@@ -2,10 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: 
+description: As a cognitive psychologist, I am interested in how people acquire and consolidate information to make inferences about their environment. To elucidate the processes underlying the choices people make, I use a combination of empirical methods -- designing and conducting controlled experiments -- and formal tools -- employing Bayesian statistics and mathematical models based on principles of reinforcement learning, probability theory, and differential equations. My research thus far delves into the following three areas.
 nav: true
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
+order: 2
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
