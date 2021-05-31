@@ -16,7 +16,7 @@ I am currently reading:
 * *Stories of Your Life and Others* by Ted Chiang
 * *Wine and War* by Don and Petie Kladstrup
 
-I am also working on a Python script to automatically extract titles from images of books and write them to a database to easily create and maintain a personal catalogue. The script pre-processes the image (grayscale, thresholding, canny edge detection), determines where the boundaries of each book are using Hough Transform, and the boundaries are used to slice the image into separate books as shown below. This will then be passed through pyTesseract to extract the book titles. The idea is to then use the Google Books API to search the extracted titles and retrieve the book's full information.
+I am also working on a Python script to automatically extract titles from images of books and write them to a database to easily create and maintain a personal catalogue. The script pre-processes the image (grayscale, thresholding, canny edge detection), determines where the boundaries of each book are using Hough Transform, and the boundaries are used to slice the image into separate books as shown below. This will then be passed through pyTesseract to extract the book titles.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
@@ -60,7 +60,7 @@ I am also working on a Python script to automatically extract titles from images
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/baking-ondeh.jpg' | relative_url }}" alt="" title="Ondeh Ondeh (sweet pandan glutinous rice balls filled with molten gula melaka)"/>
     </div>
     <div class="col-sm mt-3 mt-md-3">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/baking-1830smincepie.jpg' | relative_url }}" alt="" title="Mince pies with lemon mincemeat made from a recipe from the 1830s"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/baking-1830smincepie.jpg' | relative_url }}" alt="" title="Mince pies with lemon mincemeat based on a recipe from the 1830s"/>
     </div>
 </div>
 <div class="caption">
@@ -71,13 +71,13 @@ I am also working on a Python script to automatically extract titles from images
 ### Crochet
 
 <div class="row">
-    <div class="col-sm mt-6 mt-md-0">
+    <div class="col-sm mt-6 mt-md-3">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/crochet-1.jpg' | relative_url }}" alt="" title=""/>
     </div>
-    <div class="col-sm mt-6 mt-md-0">
+    <div class="col-sm mt-6 mt-md-3">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/crochet-2.jpg' | relative_url }}" alt="" title=""/>
     </div>
-    <div class="col-sm mt-6 mt-md-0">
+    <div class="col-sm mt-6 mt-md-3">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/crochet-bunny.jpg' | relative_url }}" alt="" title=""/>
     </div>
 </div>

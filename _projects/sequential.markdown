@@ -46,7 +46,7 @@ This work follows <a href="https://pubmed.ncbi.nlm.nih.gov/27472912/">Little, Wa
 
   <img src="{{ '/assets/img/SE_Results.png' | relative_url }}" align="right" style="width: 12vw; min-width: 330px;"/>
 
-  * Lin, D. J. & Little, D. R. (2020). Further tests of sequence-sensitive models in a modified Garner task using separable dimensions. *Manuscript submitted for publication.* <a href="https://pubmed.ncbi.nlm.nih.gov/27472912/">Link</a> and <a href="https://github.com/knowlabUnimelb/MODGARNER/">code</a>.
+  * Lin, D. J. & Little, D. R. (2020). Further tests of sequence-sensitive models in a modified Garner task using separable dimensions. *PsyArXiv.* <a href="https://psyarxiv.com/4r8tw/" target="_blank">Link</a> and <a href="https://github.com/knowlabUnimelb/MODGARNER/" target="_blank">code</a>.
     - Establishes that the same pattern of sequential effects are found for separable dimension stimuli and demonstrates that a sequence-sensitive feature-based model (with an LBA back end) where only one dimension is attended to best fits the data
-  * Lin, D. & Little, D. R. (2017). Sequential Effects in the Garner Task. *Proceedings of the 39th Annual Conference of the Cognitive Science Society*. <a href="https://cogsci.mindmodeling.org/2017/papers/0150/paper0150.pdf">Link</a>
+  * Lin, D. & Little, D. R. (2017). Sequential Effects in the Garner Task. *Proceedings of the 39th Annual Conference of the Cognitive Science Society*. <a href="https://cogsci.mindmodeling.org/2017/papers/0150/paper0150.pdf" target="_blank">Link</a>
     - Replicates the original Garner speeded classification task with new analysis of sequential effects in a hierarchical Bayesian framework
