@@ -27,11 +27,11 @@ The model that I propose combines reinforcement learning and diffusion modelling
 ### Past Work
 A previous research project investigated how people estimate outcome probabilities in decision-making from both description (when outcome probabilities are stated) and experience. In the field, one robust finding is that people tend to underweight rare events in decisions from experience but overweight them in decisions from description (the 'Description-Experience gap'). For example, if people have had a cold for a total of two weeks in the past year (~4% of the time), they behave as though they have less than a ~4% probability of coming down with a cold. However, if they are explicitly told that they have a 4% chance of catching a cold, they behave as though it occurs more often.
 
-We propose that a cognitive model based on exemplar theory, where a memory trace containing information such as value is stored every time a stimulus is encountered, is able to provide a unified account of decisions from description and experience. My work, in particular, focused on extending an exemplar-based model of decisions from experience developed by Hawkins et al. (2014) to decisions from description. Hawkins et al. (2014) posited that people store each encountered outcome as exemplars of an option with some probability of error and based their estimation of outcome probabilities on the stored exemplars. This was dubbed the *Exemplar-Confusion model* ('ExCon model').
+We propose that a cognitive model based on exemplar theory, where a memory trace containing information such as value is stored every time a stimulus is encountered, is able to provide a unified account of decisions from description and experience. My work, in particular, focuses on extending an exemplar-based model of decisions from experience developed by Hawkins et al. (2014) to decisions from description. Hawkins et al. (2014) posited that people store each encountered outcome as exemplars of an option with some probability of error and based their estimation of outcome probabilities on the stored exemplars. This was dubbed the *Exemplar-Confusion model* ('ExCon model').
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Excon-fig.png' | relative_url }}"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Excon-Fig.png' | relative_url }}"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Excon-BF.png' | relative_url }}"/>
@@ -41,7 +41,7 @@ We propose that a cognitive model based on exemplar theory, where a memory trace
     The ExCon model process for decisions from description on the left. Log Bayes Factor comparing the ExCon model with Cumulative Prospect Theory for the 30 participants from Rieskamp (2008) on the right.
 </div>
 
-In our model for decisions from description, as outcomes probabilities are known from the outset, we propose that people mentally simulate a set of outcomes which serve as exemplars. We demonstrate that this model performs at least as well as Cumulative Prospect Theory, a benchmark model of decisions from description, while providing a psychological account of the decision making process. Together with the ExCon model for decisions from experience, we show that these two exemplar-based models are able to account for the DE gap.
+In our model for decisions from description, where outcomes probabilities are known from the outset, we propose that people mentally simulate a set of outcomes which serve as exemplars. We demonstrate that this model performs at least as well as Cumulative Prospect Theory, a benchmark model of decisions from description, while providing a psychological account of the decision making process. Together with the ExCon model for decisions from experience, we show that these two exemplar-based models are able to account for the DE gap.
 
 ### Relevant Material
 * The online version of my experiment. <a href="https://exp-exp-289600.ts.r.appspot.com/">Link</a> and <a href="https://github.com/dbrhln/EXP-EXP-ONLINE-2020" target="_blank">code</a>
