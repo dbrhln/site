@@ -13,7 +13,7 @@ order: 5
 I am currently reading:
 * *Gottland* by Mariusz Szczygiel
 * *In the Presence of Absence* by Mahmoud Darwish
-* *Stories of Your Life and Others* by Ted Chiang
+* *Bad Blood* by John Carreyrou
 * *Wine and War* by Don and Petie Kladstrup
 
 I am also working on a Python script to automatically extract titles from images of books and write them to a database to easily create and maintain a personal catalogue. The script pre-processes the image (grayscale, thresholding, canny edge detection), determines where the boundaries of each book are using Hough Transform, and the boundaries are used to slice the image into separate books as shown below. This will then be passed through pyTesseract to extract the book titles.
