@@ -11,10 +11,10 @@ order: 5
 
 ### Books
 I am currently reading:
-* *Gottland* by Mariusz Szczygiel
-* *In the Presence of Absence* by Mahmoud Darwish
-* *Bad Blood* by John Carreyrou
-* *Wine and War* by Don and Petie Kladstrup
+* *The Puzzler* by A.J. Jacobs
+* *Tomorrow, Tomorrow and Tomorrow* by Gabrielle Zevin
+* *The Phoenix Project* by Gene Kim, George Spafford, and Kevin Behr
+* *Build* by Tony Fadell
 
 I am also working on a Python script to automatically extract titles from images of books and write them to a database to easily create and maintain a personal catalogue. The script pre-processes the image (grayscale, thresholding, canny edge detection), determines where the boundaries of each book are using Hough Transform, and the boundaries are used to slice the image into separate books as shown below. This will then be passed through pyTesseract to extract the book titles.
 
