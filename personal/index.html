@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Deborah  Lin | blank</title>
+<title>Deborah  Lin | personal</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/personal/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -144,9 +144,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/personal/">
                 personal
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -173,56 +175,93 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
+  <header class="post-header">
+    <h1 class="post-title">personal</h1>
+    <p class="post-description">Apart from research, I am always happy to talk about baking, crochet, books, and travel.</p>
+  </header>
+
+  <article>
+    <h3 id="books">Books</h3>
+<p>I am currently reading:</p>
+<ul>
+  <li><em>The Puzzler</em> by A.J. Jacobs</li>
+  <li><em>Tomorrow, Tomorrow and Tomorrow</em> by Gabrielle Zevin</li>
+  <li><em>The Phoenix Project</em> by Gene Kim, George Spafford, and Kevin Behr</li>
+  <li><em>Build</em> by Tony Fadell</li>
+</ul>
+
+<p>I am also working on a Python script to automatically extract titles from images of books and write them to a database to easily create and maintain a personal catalogue. The script pre-processes the image (grayscale, thresholding, canny edge detection), determines where the boundaries of each book are using Hough Transform, and the boundaries are used to slice the image into separate books as shown below. This will then be passed through pyTesseract to extract the book titles.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-9 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/books-process.png" alt="" title="example image" />
+    </div>
+
+    <div class="col-sm-3 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/book-slicing.gif" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    Image processing and segmentation on a test image.
+</div>
+
+<h3 id="baking">Baking</h3>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-cheesecake.jpg" alt="Cheesecake with edible violets" title="Cheesecake with edible violets" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-baguette.jpg" alt="" title="Demi baguettes" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-carrot.jpg" alt="" title="Carrot cake" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-bonbons.jpg" alt="" title="White chocolate bon bons filled with a Thai tea ganache" />
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-3">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-caramels.jpg" alt="" title="Salted butter caramels" />
   </div>
+    <div class="col-sm mt-3 mt-md-3">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-tangyuan.jpg" alt="" title="Tang yuan filled with black sesame paste" />
+    </div>
+    <div class="col-sm mt-3 mt-md-3">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-ondeh.jpg" alt="" title="Ondeh Ondeh (sweet pandan glutinous rice balls filled with molten gula melaka)" />
+    </div>
+    <div class="col-sm mt-3 mt-md-3">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/baking-1830smincepie.jpg" alt="" title="Mince pies with lemon mincemeat based on a recipe from the 1830s" />
+    </div>
+</div>
+<div class="caption">
+  A selection of my baking (and cooking).
+</div>
 
+<p><br /></p>
+<h3 id="crochet">Crochet</h3>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-6 mt-md-3">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/crochet-1.jpg" alt="" title="" />
+    </div>
+    <div class="col-sm mt-6 mt-md-3">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/crochet-2.jpg" alt="" title="" />
+    </div>
+    <div class="col-sm mt-6 mt-md-3">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/crochet-bunny.jpg" alt="" title="" />
+    </div>
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<div class="caption">
+    A selection of my crochet projects.
+</div>
 
+<p><br /></p>
 
+  </article>
 
 </div>
 

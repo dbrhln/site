@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Deborah  Lin | blank</title>
+<title>Deborah  Lin | Sequential Effects</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -30,7 +30,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/sequential/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -115,8 +115,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/projects/">
                 projects
@@ -173,56 +171,65 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Sequential Effects</h1>
+    <p class="post-description">Do recent experiences influence categorisation?</p>
+  </header>
 
+  <article>
+    <p>The study of categorisation examines what affects how quickly and accurately people are able to classify various stimuli. This has largely focused on long-term knowledge and representations of the stimulus space. For example, when people are classifying a shirt as cheap or expensive, they may draw upon their knowledge of the entire range of shirt prices and be faster and more accurate in classification when the shirts presented lie on either end of the range. However, your perception of the value of a shirt may be influenced by another shirt that you had just seen. A $100 shirt may seem expensive if presented after a $20 shirt but may appear cheap if presented after a $1000 shirt. My work in this area explores the effect of recent experiences on categorisation of stimuli with separable dimensions (or attributes).</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/IntegralStim.png" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/SeparableStim.png" />
+    </div>
+</div>
+<div class="caption">
+    Examples of stimuli with integral dimensions (on the left) and stimuli with separable dimensions (on the right). Integral dimensions, such as hue and saturation, are difficult to attend independently, while separable dimensions, such as size and shape, are easy to selectively attend to without interference from the other dimension.
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>This work follows <a href="https://pubmed.ncbi.nlm.nih.gov/27472912/">Little, Wang, and Nosofsky (2016)</a> who established that, when presented with integral-dimension stimuli, categorisation speed and accuracy of stimuli near the category boundary are influenced by the immediately preceding stimulus. They identify 4 main sequential effects:</p>
 
+<ol>
+  <li><em>Repetition effect</em>: faster and more accurate when preceded by the same stimulus</li>
+  <li><em>Push effect</em>: slower and less accurate when preceded by a highly dissimilar same category stimulus</li>
+  <li><em>Pull effect</em>: slower and less accurate when preceded by a very similar different category stimulus</li>
+  <li><em>Changes in the irrelevant dimension</em> attenuate the first three effects</li>
+</ol>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/SE_BoxcarStim.png" />
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/GIF_SE_full.gif" />
+    </div>
+</div>
+<div class="caption">
+    Stimuli with separable dimensions (saturation and line position) used in Lin &amp; Little (2020) on the left, and an animation of the repetition, push, and pull effects on the right.
+</div>
+
+<h3 id="selected-work">Selected Work</h3>
+
+<p><img src="/assets/img/SE_Results.png" align="right" style="width: 12vw; min-width: 330px;" /></p>
+
+<ul>
+  <li>Lin, D. J. &amp; Little, D. R. (in press). Further tests of sequence-sensitive models in a modified Garner task using separable dimensions. <em>Journal of Experimental Psychology: General</em> <a href="https://psyarxiv.com/4r8tw/" target="_blank">Link</a> and <a href="https://github.com/knowlabUnimelb/MODGARNER/" target="_blank">code</a>.
+    <ul>
+      <li>Establishes that the same pattern of sequential effects are found for separable dimension stimuli and demonstrates that a sequence-sensitive feature-based model (with an LBA back end) where only one dimension is attended to best fits the data</li>
+    </ul>
+  </li>
+  <li>Lin, D. &amp; Little, D. R. (2017). Sequential Effects in the Garner Task. <em>Proceedings of the 39th Annual Conference of the Cognitive Science Society</em>. <a href="https://cogsci.mindmodeling.org/2017/papers/0150/paper0150.pdf" target="_blank">Link</a>
+    <ul>
+      <li>Replicates the original Garner speeded classification task with new analysis of sequential effects in a hierarchical Bayesian framework</li>
+    </ul>
+  </li>
+</ul>
+
+  </article>
 
 </div>
 
